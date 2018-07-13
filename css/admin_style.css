@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.col-sm-10{
+    background-color: #1b6d85 !important;
+}
+.col-sm-2{
+    background-color: #2f4050 !important;
+}
+#side_menu a{
+color:#ffff00;
+}

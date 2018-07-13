@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b6d85 !important;
+}
+/** ####### navbar styles  ******/
+.navbar{
+    margin-top: 5px;
+    background-color: #90ad33 !important;
+}
+.logo{
+    width:200px;
+    height: 50px;
+    margin-top: -15px;
+}
+.navbar-nav li{
+    font-weight: bold;
+    font-family: Bitter,Georgia,Times,"Times New Roman";
+    font-size: 1.2em;
+
+
+}
+.navbar-nav li a{
+    color:#fff !important;
+}
+.navbar-nav li a:hover{
+    color:red !important;
+}
+.navbar-toggle{
+    background-color: #90ad33 !important;
+}
+
+/** ####### end of navbar styles  ******/
