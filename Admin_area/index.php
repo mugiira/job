@@ -13,30 +13,21 @@
 
 </head>
 <body>
-<div class="container"><!---- Start of container ==== ---->
+<div class="container" id="container"><!---- Start of container ==== ---->
     <div class="row"><!---- Start of  row ==== ---->
         <div class="col-sm-2"><!---- Start of col-sm-2 ==== ---->
             <h1>DashBoard</h1>
             <ul id="side_menu" class="nav nav-pills nav-stacked">
-                <li class="active"><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Home</a><li>
+                <li class="active"><a href="index.php"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Home</a><li>
                 <li><a href="category.php">Category</a><li>
                 <li><a href="#">Comments</a><li>
             </ul>
 
         </div><!---- End of col-sm-2 ==== ---->
         <div class="col-sm-10"><!---- Start of col-sm-10 ==== ---->
-            <h1>Category Management</h1>
-            <fieldset>
-                <form action="category.php" method="post">
-                    <div class="form-group">
-                        <label for="name">Category </label>
-                            <input type="text" name="category" placeholder="enter the category here" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" class="btn btn-success btn-block" placeholder="Add Category"  >
-                    </div>
-                </form>
-            </fieldset>
+            <h1>DashBoard</h1>
+            <h2>This is where everything that is going to be</h2>
+
 
 
 

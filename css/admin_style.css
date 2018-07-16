@@ -6,10 +6,15 @@
 }
 .col-sm-10{
     background-color: #1b6d85 !important;
+;
 }
 .col-sm-2{
     background-color: #2f4050 !important;
+
 }
 #side_menu a{
 color:#ffff00;
+}
+.container{
+    margin-top:20px !important;
 }
