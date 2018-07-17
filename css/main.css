@@ -1,3 +1,6 @@
+
+
+/****Admin_Area css ----------**********/
 *{
     margin: 0px;
     padding: 0px;
@@ -32,5 +35,6 @@ body{
 .navbar-toggle{
     background-color: #90ad33 !important;
 }
+
 
 /** ####### end of navbar styles  ******/

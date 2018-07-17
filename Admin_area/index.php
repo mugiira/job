@@ -7,26 +7,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Meru Jobs</title>
     <link rel="stylesheet"  href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../css/admin_style.css">
 
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+
+
 
 </head>
 <body>
 <div class="container" id="container"><!---- Start of container ==== ---->
     <div class="row"><!---- Start of  row ==== ---->
         <div class="col-sm-2"><!---- Start of col-sm-2 ==== ---->
-            <h1>DashBoard</h1>
+            <h1 class="text-center" id="title_heading">DashBoard</h1>
             <ul id="side_menu" class="nav nav-pills nav-stacked">
-                <li class="active"><a href="index.php"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Home</a><li>
+                <li class="active"><a href="index.php"><span ><i class="fa fa-th fa-1x"></i></span>Home</a><li>
                 <li><a href="category.php">Category</a><li>
-                <li><a href="#">Comments</a><li>
+                <li><a href="post_jobs.php">Posts Jobs</a><li>
             </ul>
 
         </div><!---- End of col-sm-2 ==== ---->
         <div class="col-sm-10"><!---- Start of col-sm-10 ==== ---->
             <h1>DashBoard</h1>
-            <h2>This is where everything that is going to be</h2>
+            <i class="fa fa-cog fa-3x"></i>
+            <i class="fa fa-tasks fa-3x"></i>
+            <i class="fa fa-th-list fa-3x"></i>
+            <i class="fa fa-tags fa-3x"></i>
+            <i class="fa fa-comment fa-3x"></i>
+            <i class="fa fa-th fa-3x"></i>
+            <h2>Dash Board</h2>
 
 
 
@@ -37,5 +45,6 @@
 
 <script src="../js/jquery2.js"></script>
 <script  src="../js/bootstrap.js"></script>
+<script  src="../js/font-awesome.min.js"></script>
 </body>
 </html>
