@@ -27,9 +27,9 @@ include ('includes/session.php');
     <div class="container"><!---- Start of container ==== ---->
         <div class="row"><!---- Start of  row ==== ---->
             <div class="col-sm-2"><!---- Start of col-sm-2 ==== ---->
-                <h1>DashBoard</h1>
+                <h1  class="Admin_title">Meru county Admin</h1>
                 <ul id="side_menu" class="nav nav-pills nav-stacked">
-                    <li><a href="index.php"><span ><i class="fa fa-th fa-1x"></i></span>Home</a><li>
+                    <li><a href="index.php">Home</a><li>
                     <li><a href="category.php">Category</a><li>
                     <li class="active"><a href="post_jobs.php">Post Jobs</a><li>
                 </ul>
@@ -82,6 +82,16 @@ include ('includes/session.php');
 
                         </div>
                         <div class="form-group">
+                            <label for="post_summary">Job Summary </label>
+                            <textarea class="form-control" rows="3" id="post_summary" name="job_summary" ></textarea>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="pro_description">Job Description </label>
+                            <textarea class="form-control" rows="3" id="pro_description" name="job_desc" ></textarea>
+
+                        </div>
+                        <div class="form-group">
                             <input type="submit" name="post_job" class="btn btn-success btn-block"  value="POST"  >
                         </div>
                     </form>
@@ -105,6 +115,8 @@ if(isset($_POST['post_job'])) {
         $post_duration = $_POST['job_duration'];
         $post_job_function = $_POST['job_function'];
         $post_category = $_POST['job_category'];
+        $post_summary =$_POST['job_summary'];
+        $post_desc =$_POST['job_desc'];
     if (empty($post_title) || empty($post_location) || empty($post_duration) ||empty($post_category)) {
     $_SESSION['ErrorMessage'] = "Please you have not entered anything in the category box";
 
@@ -114,12 +126,11 @@ elseif(strlen($post_title)>40){
     $_SESSION['SuccessMessage'] = "it is too long";
     header('location:post_jobs.php');
 }else{
-        $insert_post = "INSERT INTO job_posts (cat_name,title_job,location,job_duration,job_function)
-          VALUES('$post_category',' $post_title','$post_location ',' $post_duration','$post_job_function')";
+        $insert_post = "INSERT INTO job_posts (cat_name,title_job,location,job_duration,job_function,job_summary,job_desc)
+          VALUES('$post_category',' $post_title','$post_location ',' $post_duration','$post_job_function','$post_summary','$post_desc')";
         $query = mysqli_query($conn, $insert_post);
         if ($query) {
             $_SESSION['SuccessMessage'] = "it is post is added successfully to the database ";
-            header('location:post_jobs.php');
 
 
         }

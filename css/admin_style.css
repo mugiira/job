@@ -5,16 +5,23 @@
 
 }
 .col-sm-10{
-    background-color: #1b6d85 !important;
+    background-color:#90ad33 !important;
 ;
 }
 .col-sm-2{
-    background-color: #2f4050 !important;
+    background-color: #ada83e !important;
 
 }
-#side_menu a{
-color:#ffff00;
+ a{
+color:white;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 300;
+
+
 }
+
+
 .container{
     margin-top:20px !important;
 }
@@ -36,3 +43,12 @@ label{
 
       }
 
+.fa-1x{
+    color:#fff;
+}
+.Admin_title{
+    color:whitesmoke;
+    font-size:18px;
+    font-family: Roboto;
+    font-weight: 100;
+}

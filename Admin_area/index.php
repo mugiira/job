@@ -18,9 +18,9 @@
 <div class="container" id="container"><!---- Start of container ==== ---->
     <div class="row"><!---- Start of  row ==== ---->
         <div class="col-sm-2"><!---- Start of col-sm-2 ==== ---->
-            <h1 class="text-center" id="title_heading">DashBoard</h1>
-            <ul id="side_menu" class="nav nav-pills nav-stacked">
-                <li class="active"><a href="index.php"><span ><i class="fa fa-th fa-1x"></i></span>Home</a><li>
+            <h1  class="Admin_title" id="title_heading">DashBoard</h1>
+            <ul  class="nav nav-pills nav-stacked">
+                <li  class="active" ><a href="index.php"><span ><i class="fa fa-th fa-1x"></i></span>Home</a><li>
                 <li><a href="category.php">Category</a><li>
                 <li><a href="post_jobs.php">Posts Jobs</a><li>
             </ul>

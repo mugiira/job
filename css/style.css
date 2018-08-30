@@ -131,10 +131,11 @@ li:before{
     position: absolute;
     width:90%;
     height: 55px;
-    background-color: #000;
-    opacity: 0.4;
+    background-color: #202e2f;
+    opacity: 0.5;
     top:310px;
     left:5%;
+    border: 2px solid black;
 }
 
 #formsearch input[type="text"]{
@@ -142,21 +143,23 @@ li:before{
     width: 1000px !important;
     top:20%;
     left: 2%;
-    color:black;
+    color:#fff3cd;
     font-family: "Roboto Black";
     letter-spacing: 2px;
     font-size:18px;
-    background-color: white !important;
+    background-color: #202e2f!important;
     border: none;
     outline: none;
     padding-left:50px;
+    border: 2px solid black;
+    opacity: 0.9;
 }
 #formsearch button{
     position: absolute;
     width: 100px !important;
     top:20%;
     left: 88%;
-    background-color: #fff100;
+    background-color: #000000;
     border: none;
     outline: none;
     font-family: "Roboto Black ";
@@ -165,3 +168,99 @@ li:before{
     color: whitesmoke;
 }
 /****** end of landing Area ***********/
+/****** registration ***********/
+ #register {
+    width:250px!important;
+    height: 400px !important;
+    background-color: red !important;
+    border: 1px solid black;
+    z-index: 1;
+     position: absolute;
+     top:30px;
+     right: 75px;
+     opacity: 0.9;
+   display: none;
+
+}
+  h3 {
+     font-size: 14px !important;
+      text-align: center;
+      color: #000;
+
+ }
+  ul li a  #register:hover{
+    display: inline !important;
+    
+}
+
+
+
+
+/****** end of registration ***********/
+/***** top jobs ****************/
+#top-jobs h2{
+    font-size: 20px !important;
+    font-family: Roboto;
+    font-weight: 300;
+}
+#top-line{
+    border:1px solid black !important;
+}
+.job-1{
+        width: 300px;
+    height: 100px;
+    background-color:whitesmoke;
+
+    box-shadow: 4px 3px 10px black;
+    margin-bottom: 20px;
+    font-weight: 400;
+   margin-top: -25px;
+
+
+
+}
+
+.job-name{
+
+    color:black;
+    font-family:"Roboto Black";
+    font-weight: 400;
+    font-size: 18px;
+
+
+
+
+}
+
+.job-loc {
+
+    color: #000;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 30px;
+
+}
+.job-fun{
+
+    color: #000;
+    font-family: monospace;
+    font-weight: 100;
+    margin-left: 5px;
+
+
+}
+/***** top jobs ****************/
+/***** job details page ****************/
+#job_details{
+    width: 1000px;
+
+    background-color:white;
+    margin-top: 5px;
+}
+#job_summary{
+    width: 1000px;
+
+
+}
+/***** end job details page ****************/
